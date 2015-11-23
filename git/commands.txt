@@ -1,0 +1,20 @@
+go to project folder
+type git init
+git status - gives untracked files and folders if any
+	red color - not tracked.
+git add index.html - to add index.html file
+gt add . - adds all the files to repository.
+git commit --m "added quiz project"
+git status
+On branch master
+nothing to commit, working directory clean
+commit - saving the state of your project
+
+git push origin master - it will go to server untill committed
+git pull origin master - other team mate can get it from git repository
+
+git stash - to make project as last changed - undo the changes
+git log - gives the list of all the commits you have made
+
+
+
