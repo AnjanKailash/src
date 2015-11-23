@@ -16,5 +16,9 @@ git pull origin master - other team mate can get it from git repository
 git stash - to make project as last changed - undo the changes
 git log - gives the list of all the commits you have made
 
+proxy setting -- $ git config --global http.proxy http://201585037:msit123@10.10.10.3:3128
+
+
+
 
 
