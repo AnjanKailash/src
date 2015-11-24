@@ -18,7 +18,7 @@ git log - gives the list of all the commits you have made
 
 proxy setting -- $ git config --global http.proxy http://201585037:msit123@10.10.10.3:3128
 
+error: ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
 
-
-
-
+git remote set-url origin https://github.com/AnjanKailash/src.git

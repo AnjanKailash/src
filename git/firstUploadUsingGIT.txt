@@ -1,0 +1,125 @@
+
+LAPTOP@Anjan_Kailash MINGW64 ~/Desktop/PythonProject/quiz/src (master)
+$ git log
+commit 875dc161cc7d0055575b5ca5ff7f2af29389e755
+Author: AnjanKailash <anjan.kailash@gmail.com>
+Date:   Mon Nov 23 15:34:44 2015 +0530
+
+    added quiz project
+
+commit 718f6e9311900420326fb5cc0615a97f80e04999
+Author: AnjanKailash <anjan.kailash@gmail.com>
+Date:   Mon Nov 23 15:20:03 2015 +0530
+
+    added quiz project
+
+commit cd4df0e50a20c64086a37f85ba2ba9286f9aad45
+Author: AnjanKailash <anjan.kailash@gmail.com>
+Date:   Mon Nov 23 14:53:32 2015 +0530
+
+    added quiz project
+
+LAPTOP@Anjan_Kailash MINGW64 ~/Desktop/PythonProject/quiz/src (master)
+$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+LAPTOP@Anjan_Kailash MINGW64 ~/Desktop/PythonProject/quiz/src (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   git/commands.txt
+
+
+LAPTOP@Anjan_Kailash MINGW64 ~/Desktop/PythonProject/quiz/src (master)
+$ git commit -m "4th commit added"
+[master 0c33edc] 4th commit added
+ 1 file changed, 4 insertions(+)
+
+LAPTOP@Anjan_Kailash MINGW64 ~/Desktop/PythonProject/quiz/src (master)
+$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+LAPTOP@Anjan_Kailash MINGW64 ~/Desktop/PythonProject/quiz/src (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+LAPTOP@Anjan_Kailash MINGW64 ~/Desktop/PythonProject/quiz/src (master)
+$ git remote add origin git@github.com:AnjanKailash/src.git
+
+LAPTOP@Anjan_Kailash MINGW64 ~/Desktop/PythonProject/quiz/src (master)
+$ git push origin master
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+LAPTOP@Anjan_Kailash MINGW64 ~/Desktop/PythonProject/quiz/src (master)
+$ git config --global http.proxy http://201585037:msit123@10.10.10.3:3128
+
+LAPTOP@Anjan_Kailash MINGW64 ~/Desktop/PythonProject/quiz/src (master)
+$ git push origin master
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+LAPTOP@Anjan_Kailash MINGW64 ~/Desktop/PythonProject/quiz/src (master)
+$ git push -u origin master
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+LAPTOP@Anjan_Kailash MINGW64 ~/Desktop/PythonProject/quiz/src (master)
+$ git remote add origin https://github.com/AnjanKailash/src.git
+fatal: remote origin already exists.
+
+LAPTOP@Anjan_Kailash MINGW64 ~/Desktop/PythonProject/quiz/src (master)
+$ git remote set-url https://github.com/AnjanKailash/src.git
+usage: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    --push                manipulate push URLs
+    --add                 add URL
+    --delete              delete URLs
+
+
+LAPTOP@Anjan_Kailash MINGW64 ~/Desktop/PythonProject/quiz/src (master)
+$ git remote set-url origin https://github.com/AnjanKailash/src.git
+
+LAPTOP@Anjan_Kailash MINGW64 ~/Desktop/PythonProject/quiz/src (master)
+$ git push origin master
+Counting objects: 58, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (54/54), done.
+Writing objects: 100% (58/58), 21.57 KiB | 0 bytes/s, done.
+Total 58 (delta 11), reused 0 (delta 0)
+To https://github.com/AnjanKailash/src.git
+ * [new branch]      master -> master
+
+LAPTOP@Anjan_Kailash MINGW64 ~/Desktop/PythonProject/quiz/src (master)
+$ ^C
+
+LAPTOP@Anjan_Kailash MINGW64 ~/Desktop/PythonProject/quiz/src (master)
